@@ -43,6 +43,7 @@ $route['lock/(:any)/(:any)'] = "welcome/shucks";
 $route['show/(:num)'] = "first/gimme/$1";
 $route['dunno'] = "guess";
 $route['([a-zA-Z]{4})/bingo'] = "bingo";
+$route['(comp[0-9]+)/(.*)'] = "bingo/wisdom";
 $route['default_controller'] = "welcome";
 $route['404_override'] = '';
 
